@@ -6,4 +6,7 @@ This code was taken from [this article](https://medium.com/criteo-engineering/ne
 
 [Here is another](https://medium.com/@jaiadityarathore/dotnet-core-threadpool-bef2f5a37888) good resource that explains the behavior of the thread pool in asp.net app.
 
-Try to play with different values in ThreadPool.SetMinThreads() method.
+Try to play with different values here:
+```csharp
+ThreadPool.SetMinThreads()
+```
